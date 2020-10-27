@@ -34,7 +34,7 @@ public class GradeFunction implements GradeInterface{
 	        	gradeMap.put("姓名", arrayList.get(i+1));
 	        	gradeMap.put("数学", arrayList.get(i+2));
 	        	gradeMap.put("语文", arrayList.get(i+3));
-	        	gradeMap.put("英语", arrayList.get(i+4)+"\n");
+	        	gradeMap.put("英语", arrayList.get(i+4));
 	        	arrayInfo.add(gradeMap);
 	        }
 	        //System.out.println(arrayInfo);
